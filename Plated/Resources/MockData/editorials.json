@@ -1,0 +1,150 @@
+[
+  {
+    "id": "editorial-001",
+    "headline": "What to Cook When the Weather Turns Cold",
+    "subheadline": "A guide to the braises, roasts, and one-pot meals that make winter feel like a gift",
+    "author": {
+      "id": "author-001",
+      "name": "Elena Marchetti",
+      "bio": "Food writer and recipe developer with a love for rustic Italian cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "role": "Senior Recipe Developer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80",
+    "body": [
+      { "type": "paragraph", "text": "There is a moment each year — sometime in late October, usually on a Tuesday — when you walk outside and the air has changed. It is sharper, damper, carrying the faintest smell of woodsmoke and wet leaves. Your body knows before your mind catches up: it is time to cook differently." },
+      { "type": "heading", "text": "The Case for Slow Cooking" },
+      { "type": "paragraph", "text": "Winter cooking is not about speed. It is about patience — the kind that rewards you with falling-apart braises, deeply caramelized onions, and sauces that have had time to become something greater than the sum of their parts. The oven does most of the work. You just have to trust it." },
+      { "type": "pullQuote", "text": "The best winter meals are the ones that fill the kitchen with steam and the whole house with warmth.", "attribution": "Elena Marchetti" },
+      { "type": "paragraph", "text": "Start with a good Dutch oven and a bottle of wine — half for the pot, half for you. A wild mushroom ragu simmered slowly over polenta is the kind of meal that makes you grateful for the cold." },
+      { "type": "recipeEmbed", "recipeID": "recipe-007" },
+      { "type": "heading", "text": "Vegetables in the Spotlight" },
+      { "type": "paragraph", "text": "Do not underestimate winter vegetables. Cauliflower, roasted until its edges turn mahogany, becomes something almost meaty. Root vegetables, slow-cooked with herbs and a splash of good vinegar, develop a sweetness that is impossible to achieve in any other season." },
+      { "type": "recipeEmbed", "recipeID": "recipe-006" },
+      { "type": "paragraph", "text": "The cold months are not something to endure. They are an invitation to cook more slowly, eat more deliberately, and gather around the table with the people who matter most." }
+    ],
+    "category": "seasonal",
+    "readingTimeMinutes": 6,
+    "publishedAt": "2025-11-02T10:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-007", "recipe-006", "recipe-003"]
+  },
+  {
+    "id": "editorial-002",
+    "headline": "A Better Breakfast Week",
+    "subheadline": "Seven mornings, seven recipes — a plan for people who are tired of reaching for the same cereal box",
+    "author": {
+      "id": "author-002",
+      "name": "James Whitfield",
+      "bio": "Chef and food photographer focused on seasonal British cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "role": "Contributing Chef"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&q=80",
+    "body": [
+      { "type": "paragraph", "text": "Breakfast is the most neglected meal. We give it ten minutes, a handful of something from a box, and a cup of coffee gulped standing up. But what if we gave it a little more — not every day, but for one deliberate week?" },
+      { "type": "heading", "text": "The Monday Reset" },
+      { "type": "paragraph", "text": "Start the week with something that requires almost no effort but feels like a celebration. A Dutch baby — golden, puffy, dramatic — takes five minutes of prep and twenty minutes in the oven. That is less time than it takes to scroll through your phone." },
+      { "type": "recipeEmbed", "recipeID": "recipe-005" },
+      { "type": "heading", "text": "Midweek: Keep It Simple" },
+      { "type": "paragraph", "text": "By Wednesday, ambition wanes. This is where great toast comes in. Not sad toast — toast with intention. A thick slice of sourdough, warmed and crisped, topped with ricotta, a drizzle of honey, and a pinch of flaky salt." },
+      { "type": "pullQuote", "text": "A good breakfast does not have to be complicated. It just has to be made with care.", "attribution": "James Whitfield" },
+      { "type": "paragraph", "text": "The goal is not perfection. It is simply to start each day with something that you actually looked forward to eating. After a week, you might find you never want to go back to autopilot mornings." }
+    ],
+    "category": "guide",
+    "readingTimeMinutes": 5,
+    "publishedAt": "2025-09-15T08:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-005", "recipe-009"]
+  },
+  {
+    "id": "editorial-003",
+    "headline": "Three Ingredients Carrying Spring Right Now",
+    "subheadline": "Peas, radishes, and fresh herbs — and what to do with all of them",
+    "author": {
+      "id": "author-004",
+      "name": "Sofia Chen",
+      "bio": "Nutritionist and recipe writer specializing in vibrant, plant-forward food.",
+      "avatarURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+      "role": "Nutrition Editor"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+    "body": [
+      { "type": "paragraph", "text": "Every spring, the same three ingredients appear at the market and quietly announce that the season has changed. Fresh peas, their pods still dewy. Radishes with their greens still attached, electric pink against the morning light. And herbs — bundles of mint, dill, and chives so fragrant you can smell them from two stalls away." },
+      { "type": "heading", "text": "Peas: Sweet and Fleeting" },
+      { "type": "paragraph", "text": "Fresh peas have a window of about three weeks when they are truly exceptional. During that time, they need almost nothing — a quick blanch, a knob of butter, a scattering of mint. Or, if you are feeling more ambitious, a risotto that captures their sweetness in every creamy bite." },
+      { "type": "recipeEmbed", "recipeID": "recipe-002" },
+      { "type": "heading", "text": "Radishes: The Underrated Star" },
+      { "type": "paragraph", "text": "Eaten raw with good butter and flaky salt, a radish is a perfect thing. But do not overlook what happens when you roast them — the peppery bite softens into something mild and almost sweet, with caramelized edges that make them disappear from the pan before dinner is served." },
+      { "type": "heading", "text": "Fresh Herbs: Use Them Generously" },
+      { "type": "paragraph", "text": "The single biggest shift you can make in your spring cooking is to stop treating herbs as a garnish and start treating them as an ingredient. A handful of torn mint stirred into a grain salad, a shower of dill over roasted vegetables, chives snipped over everything — this is what makes food taste alive." },
+      { "type": "pullQuote", "text": "Spring ingredients do not need elaborate techniques. They need you to get out of their way.", "attribution": "Sofia Chen" }
+    ],
+    "category": "ingredient",
+    "readingTimeMinutes": 4,
+    "publishedAt": "2025-04-10T09:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-002", "recipe-008", "recipe-004"]
+  },
+  {
+    "id": "editorial-004",
+    "headline": "The Art of the Simple Dinner",
+    "subheadline": "Why the best weeknight meals are the ones you barely have to think about",
+    "author": {
+      "id": "author-003",
+      "name": "Amira Hassan",
+      "bio": "Home cook and food stylist drawing on Middle Eastern and North African flavors.",
+      "avatarURL": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+      "role": "Contributing Writer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+    "body": [
+      { "type": "paragraph", "text": "There is a particular kind of dinner that does not require a recipe. It asks only that you open the refrigerator, see what is there, and cook with a little confidence and a lot of olive oil. This is not laziness. It is a skill — perhaps the most important one a home cook can develop." },
+      { "type": "heading", "text": "The Formula" },
+      { "type": "paragraph", "text": "A simple dinner follows a loose structure: something roasted or seared, something green, something with acid, and good bread or grains on the side. Within that framework, a thousand meals are possible. Charred broccolini with tahini and lemon is a perfect example — it takes twelve minutes and makes you feel like you have your life together." },
+      { "type": "recipeEmbed", "recipeID": "recipe-004" },
+      { "type": "pullQuote", "text": "Simplicity in cooking is not about having fewer ingredients. It is about understanding what each one is doing.", "attribution": "Amira Hassan" },
+      { "type": "heading", "text": "Give Yourself Permission" },
+      { "type": "paragraph", "text": "Not every meal needs to be ambitious. Some of the most satisfying dinners are a bowl of good pasta with butter and Parmesan, a fried egg on rice with soy sauce and sesame oil, or a plate of roasted vegetables with whatever sauce you can pull together. These meals count. They are real cooking." },
+      { "type": "paragraph", "text": "The goal is not to impress anyone. It is to feed yourself well, night after night, without it feeling like a chore. That is the real art." }
+    ],
+    "category": "technique",
+    "readingTimeMinutes": 5,
+    "publishedAt": "2025-08-20T10:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-004", "recipe-001", "recipe-006"]
+  },
+  {
+    "id": "editorial-005",
+    "headline": "Why Everything Tastes Better on a Wooden Board",
+    "subheadline": "The psychology of plating, and how a simple board transforms the way we experience food",
+    "author": {
+      "id": "author-001",
+      "name": "Elena Marchetti",
+      "bio": "Food writer and recipe developer with a love for rustic Italian cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "role": "Senior Recipe Developer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=80",
+    "body": [
+      { "type": "paragraph", "text": "Put a tomato galette on a white plate and it is dinner. Put the same galette on a weathered olive-wood board and suddenly it is an event. The food has not changed, but something about the way we perceive it has shifted entirely." },
+      { "type": "heading", "text": "The Warmth of Wood" },
+      { "type": "paragraph", "text": "There is something primal about wood as a surface for food. It speaks to an older, simpler way of eating — bread torn by hand, cheese cut at the table, a meal shared without pretense. A wooden board says: this food was made with care, and it is meant to be enjoyed together." },
+      { "type": "pullQuote", "text": "Food is not just flavor. It is texture, color, context. The surface it sits on is part of the story it tells.", "attribution": "Elena Marchetti" },
+      { "type": "heading", "text": "What Works on a Board" },
+      { "type": "paragraph", "text": "Galettes and flatbreads are natural candidates — anything with a crust that benefits from being sliced at the table. Roasted vegetables arranged in overlapping layers. A whole roasted cauliflower, dramatic and golden. Fresh bread, still warm, with a knife and a pot of good butter beside it." },
+      { "type": "recipeEmbed", "recipeID": "recipe-001" },
+      { "type": "paragraph", "text": "The board is not just a surface. It is an invitation — to lean in, to reach across, to take a piece and pass the rest along. In a world of individual plates and careful portions, there is something radical about food that asks you to share." }
+    ],
+    "category": "culture",
+    "readingTimeMinutes": 4,
+    "publishedAt": "2025-07-18T10:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-001", "recipe-006", "recipe-009"]
+  }
+]

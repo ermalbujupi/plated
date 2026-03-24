@@ -1,0 +1,90 @@
+[
+  {
+    "id": "suggestion-001",
+    "title": "Toast, but make it art",
+    "prompt": "Explore recipes that elevate simple toast into something extraordinary — from ricotta and honey to smoked salmon and capers.",
+    "imageURL": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+    "category": "trending",
+    "linkedRecipeID": "recipe-009",
+    "linkedCollectionID": null,
+    "accentColorHex": "#D4A373",
+    "publishedAt": "2025-11-01T08:00:00Z"
+  },
+  {
+    "id": "suggestion-002",
+    "title": "The perfect soft egg",
+    "prompt": "Master the 6-minute egg and discover how it transforms ramen, salads, toast, and grain bowls.",
+    "imageURL": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+    "category": "quickMeal",
+    "linkedRecipeID": "recipe-005",
+    "linkedCollectionID": null,
+    "accentColorHex": "#E9C46A",
+    "publishedAt": "2025-10-20T09:00:00Z"
+  },
+  {
+    "id": "suggestion-003",
+    "title": "Three ingredients, one perfect plate",
+    "prompt": "Sometimes the best meals come from restraint. Discover recipes where just three ingredients shine.",
+    "imageURL": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=800&q=80",
+    "category": "pantryStaple",
+    "linkedRecipeID": "recipe-004",
+    "linkedCollectionID": null,
+    "accentColorHex": "#6B705C",
+    "publishedAt": "2025-09-15T10:00:00Z"
+  },
+  {
+    "id": "suggestion-004",
+    "title": "What to cook when you can't decide",
+    "prompt": "Feeling uninspired? These reliable, crowd-pleasing recipes always deliver without requiring a plan.",
+    "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "category": "weeknight",
+    "linkedRecipeID": "recipe-003",
+    "linkedCollectionID": "collection-001",
+    "accentColorHex": "#BC6C25",
+    "publishedAt": "2025-08-28T08:00:00Z"
+  },
+  {
+    "id": "suggestion-005",
+    "title": "A bowl of something warm",
+    "prompt": "Soups, stews, risottos, and ragu — the kind of meals that make the whole kitchen smell like home.",
+    "imageURL": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+    "category": "seasonal",
+    "linkedRecipeID": "recipe-007",
+    "linkedCollectionID": null,
+    "accentColorHex": "#A68A64",
+    "publishedAt": "2025-11-15T09:00:00Z"
+  },
+  {
+    "id": "suggestion-006",
+    "title": "The simplest green salad",
+    "prompt": "A perfect green salad is not about complexity. It is about excellent ingredients, a sharp vinaigrette, and knowing when to stop.",
+    "imageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+    "category": "quickMeal",
+    "linkedRecipeID": "recipe-008",
+    "linkedCollectionID": null,
+    "accentColorHex": "#588157",
+    "publishedAt": "2025-06-10T08:00:00Z"
+  },
+  {
+    "id": "suggestion-007",
+    "title": "Midnight snack, elevated",
+    "prompt": "For the hours when only something indulgent will do. Dark chocolate, crusty bread with butter, or a perfect grilled cheese.",
+    "imageURL": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80",
+    "category": "trending",
+    "linkedRecipeID": "recipe-010",
+    "linkedCollectionID": null,
+    "accentColorHex": "#3D2B1F",
+    "publishedAt": "2025-12-05T22:00:00Z"
+  },
+  {
+    "id": "suggestion-008",
+    "title": "Sunday morning, slow",
+    "prompt": "No alarms, no rush. Just coffee, something baking in the oven, and the pleasure of an unhurried morning.",
+    "imageURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+    "category": "entertaining",
+    "linkedRecipeID": "recipe-005",
+    "linkedCollectionID": null,
+    "accentColorHex": "#DDA15E",
+    "publishedAt": "2025-10-12T07:00:00Z"
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "id": "recipe-001",
+    "title": "Slow-Roasted Tomato Galette",
+    "subtitle": "A free-form tart that celebrates summer's best tomatoes",
+    "author": {
+      "id": "author-001",
+      "name": "Elena Marchetti",
+      "bio": "Food writer and recipe developer with a love for rustic Italian cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "role": "Senior Recipe Developer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=80",
+    "description": "This galette is everything a summer tomato deserves — a buttery, flaky crust cradling slow-roasted tomatoes that have collapsed into something jammy and deeply sweet. A scattering of fresh thyme and a final drizzle of good olive oil make it sing.",
+    "prepTime": 1800,
+    "cookTime": 3600,
+    "totalTime": 5400,
+    "servings": 6,
+    "difficulty": "medium",
+    "ingredients": [
+      { "id": "ing-001-01", "name": "All-purpose flour", "quantity": "1 1/2 cups", "section": "Pastry", "isOptional": false },
+      { "id": "ing-001-02", "name": "Unsalted butter, cold and cubed", "quantity": "1/2 cup", "section": "Pastry", "isOptional": false },
+      { "id": "ing-001-03", "name": "Ice water", "quantity": "4-6 tablespoons", "section": "Pastry", "isOptional": false },
+      { "id": "ing-001-04", "name": "Fine sea salt", "quantity": "1/2 teaspoon", "section": "Pastry", "isOptional": false },
+      { "id": "ing-001-05", "name": "Heirloom tomatoes, mixed varieties", "quantity": "1 1/2 pounds", "section": "Filling", "isOptional": false },
+      { "id": "ing-001-06", "name": "Dijon mustard", "quantity": "2 tablespoons", "section": "Filling", "isOptional": false },
+      { "id": "ing-001-07", "name": "Gruyère cheese, grated", "quantity": "3/4 cup", "section": "Filling", "isOptional": false },
+      { "id": "ing-001-08", "name": "Fresh thyme leaves", "quantity": "1 tablespoon", "section": "Filling", "isOptional": false },
+      { "id": "ing-001-09", "name": "Extra-virgin olive oil", "quantity": "2 tablespoons", "section": "Filling", "isOptional": false },
+      { "id": "ing-001-10", "name": "Flaky sea salt", "quantity": "to taste", "section": "Filling", "isOptional": false },
+      { "id": "ing-001-11", "name": "Honey, for drizzling", "quantity": "1 teaspoon", "section": null, "isOptional": true }
+    ],
+    "instructions": [
+      "Combine flour and salt in a large bowl. Add cold butter and work with your fingertips until the mixture resembles coarse meal with some pea-sized pieces remaining. Drizzle in ice water one tablespoon at a time, mixing gently until the dough just comes together. Shape into a disc, wrap in plastic, and refrigerate for at least 1 hour.",
+      "Preheat the oven to 400°F (200°C). Slice the tomatoes into 1/4-inch rounds and arrange on a sheet pan lined with paper towels. Season lightly with salt and let sit for 15 minutes to draw out excess moisture.",
+      "Roll the chilled dough into a rough 14-inch circle on a floured surface. Transfer to a parchment-lined baking sheet.",
+      "Spread the Dijon mustard over the center of the dough, leaving a 2-inch border. Scatter the Gruyère evenly over the mustard.",
+      "Arrange the tomato slices in overlapping concentric circles on top of the cheese. Drizzle with olive oil and scatter fresh thyme leaves over the tomatoes.",
+      "Fold the edges of the dough up and over the filling, pleating as you go. The center should remain open.",
+      "Bake for 40-45 minutes until the crust is deeply golden and the tomatoes are caramelized at the edges. Let cool for 10 minutes before slicing.",
+      "Finish with a drizzle of honey if desired and a generous pinch of flaky sea salt."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-summer", "name": "Summer", "slug": "summer" },
+      { "id": "tag-baking", "name": "Baking", "slug": "baking" }
+    ],
+    "cuisine": "French",
+    "course": "dinner",
+    "season": "summer",
+    "nutrition": {
+      "calories": 320,
+      "protein": 9,
+      "carbohydrates": 28,
+      "fat": 20,
+      "fiber": 2,
+      "sodium": 380
+    },
+    "publishedAt": "2025-07-12T10:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-004", "recipe-006", "recipe-008"]
+  },
+  {
+    "id": "recipe-002",
+    "title": "Spring Pea Risotto with Mint",
+    "subtitle": "Bright, creamy, and impossibly green",
+    "author": {
+      "id": "author-002",
+      "name": "James Whitfield",
+      "bio": "Chef and food photographer focused on seasonal British cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "role": "Contributing Chef"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+    "description": "This risotto captures the fleeting sweetness of spring peas at their peak. The mint is stirred in at the last moment, keeping it vivid and fragrant. Finished with good Parmesan and a knob of butter, it is comfort food that feels like the first warm day of the year.",
+    "prepTime": 900,
+    "cookTime": 1800,
+    "totalTime": 2700,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "id": "ing-002-01", "name": "Arborio rice", "quantity": "1 1/2 cups", "section": null, "isOptional": false },
+      { "id": "ing-002-02", "name": "Fresh peas, shelled", "quantity": "2 cups", "section": null, "isOptional": false },
+      { "id": "ing-002-03", "name": "Vegetable stock, warm", "quantity": "5 cups", "section": null, "isOptional": false },
+      { "id": "ing-002-04", "name": "Shallots, finely diced", "quantity": "2 medium", "section": null, "isOptional": false },
+      { "id": "ing-002-05", "name": "Dry white wine", "quantity": "1/2 cup", "section": null, "isOptional": false },
+      { "id": "ing-002-06", "name": "Parmesan, finely grated", "quantity": "3/4 cup", "section": null, "isOptional": false },
+      { "id": "ing-002-07", "name": "Unsalted butter", "quantity": "3 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-002-08", "name": "Fresh mint leaves, torn", "quantity": "1/4 cup", "section": null, "isOptional": false },
+      { "id": "ing-002-09", "name": "Extra-virgin olive oil", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-002-10", "name": "Lemon zest", "quantity": "1 teaspoon", "section": null, "isOptional": true }
+    ],
+    "instructions": [
+      "Bring a small pot of salted water to a boil. Blanch the peas for 2 minutes, then transfer to an ice bath. Drain and set aside. Puree half the peas with a splash of stock until smooth.",
+      "Heat olive oil and 1 tablespoon of butter in a wide, heavy-bottomed pan over medium heat. Add shallots and cook gently until translucent, about 3 minutes.",
+      "Add the rice and stir to coat in the fat. Toast for 1-2 minutes until the edges turn translucent. Pour in the wine and stir until absorbed.",
+      "Add warm stock one ladleful at a time, stirring frequently and allowing each addition to be absorbed before adding the next. This should take about 18 minutes.",
+      "When the rice is al dente and creamy, remove from heat. Stir in the pea puree, whole peas, remaining butter, and most of the Parmesan.",
+      "Fold in the torn mint leaves and lemon zest if using. Season with salt and pepper. Serve immediately in warm bowls, topped with the remaining Parmesan."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-spring", "name": "Spring", "slug": "spring" },
+      { "id": "tag-comfort", "name": "Comfort Food", "slug": "comfort-food" }
+    ],
+    "cuisine": "Italian",
+    "course": "dinner",
+    "season": "spring",
+    "nutrition": {
+      "calories": 445,
+      "protein": 16,
+      "carbohydrates": 58,
+      "fat": 18,
+      "fiber": 5,
+      "sodium": 520
+    },
+    "publishedAt": "2025-04-03T09:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-003", "recipe-007", "recipe-006"]
+  },
+  {
+    "id": "recipe-003",
+    "title": "Brown Butter Sage Gnocchi",
+    "subtitle": "Pillowy potato gnocchi in nutty, herbaceous butter",
+    "author": {
+      "id": "author-001",
+      "name": "Elena Marchetti",
+      "bio": "Food writer and recipe developer with a love for rustic Italian cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "role": "Senior Recipe Developer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+    "description": "There are few things more satisfying than homemade gnocchi bathed in brown butter. The sage leaves crisp in the foaming butter until they shatter at the touch, and the whole dish comes together in a way that feels both humble and deeply luxurious.",
+    "prepTime": 2700,
+    "cookTime": 1200,
+    "totalTime": 3900,
+    "servings": 4,
+    "difficulty": "advanced",
+    "ingredients": [
+      { "id": "ing-003-01", "name": "Russet potatoes", "quantity": "2 pounds", "section": "Gnocchi", "isOptional": false },
+      { "id": "ing-003-02", "name": "All-purpose flour", "quantity": "1 cup, plus more for dusting", "section": "Gnocchi", "isOptional": false },
+      { "id": "ing-003-03", "name": "Egg yolk", "quantity": "1 large", "section": "Gnocchi", "isOptional": false },
+      { "id": "ing-003-04", "name": "Fine sea salt", "quantity": "1 teaspoon", "section": "Gnocchi", "isOptional": false },
+      { "id": "ing-003-05", "name": "Nutmeg, freshly grated", "quantity": "1/4 teaspoon", "section": "Gnocchi", "isOptional": false },
+      { "id": "ing-003-06", "name": "Unsalted butter", "quantity": "6 tablespoons", "section": "Brown Butter", "isOptional": false },
+      { "id": "ing-003-07", "name": "Fresh sage leaves", "quantity": "20-24 leaves", "section": "Brown Butter", "isOptional": false },
+      { "id": "ing-003-08", "name": "Parmesan, shaved", "quantity": "1/2 cup", "section": "To Serve", "isOptional": false },
+      { "id": "ing-003-09", "name": "Freshly cracked black pepper", "quantity": "to taste", "section": "To Serve", "isOptional": false }
+    ],
+    "instructions": [
+      "Bake the potatoes at 400°F (200°C) until completely tender, about 1 hour. While still hot, split them open and scoop the flesh through a potato ricer or fine-mesh sieve onto a clean surface.",
+      "Make a well in the center of the riced potato. Add the egg yolk, salt, and nutmeg. Gradually incorporate the flour, kneading very gently until the dough just comes together. Be careful not to overwork it.",
+      "Divide the dough into 6 portions. Roll each into a long rope about 3/4-inch thick. Cut into 1-inch pieces and gently roll each over the tines of a fork to create ridges.",
+      "Bring a large pot of well-salted water to a gentle boil. Cook the gnocchi in batches — they are ready about 30 seconds after they float to the surface. Transfer to a lightly oiled sheet pan.",
+      "In a large skillet, melt the butter over medium heat. Once it begins to foam, add the sage leaves. Cook, swirling occasionally, until the butter turns a deep amber and smells nutty and the sage is crisp, about 3-4 minutes.",
+      "Add the cooked gnocchi to the brown butter and toss gently to coat. Serve immediately, topped with shaved Parmesan and freshly cracked pepper."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-comfort", "name": "Comfort Food", "slug": "comfort-food" },
+      { "id": "tag-homemade", "name": "Homemade", "slug": "homemade" }
+    ],
+    "cuisine": "Italian",
+    "course": "dinner",
+    "season": "autumn",
+    "nutrition": {
+      "calories": 410,
+      "protein": 12,
+      "carbohydrates": 52,
+      "fat": 19,
+      "fiber": 3,
+      "sodium": 460
+    },
+    "publishedAt": "2025-10-18T10:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-002", "recipe-007"]
+  },
+  {
+    "id": "recipe-004",
+    "title": "Charred Broccolini with Tahini and Lemon",
+    "subtitle": "Smoky, nutty, and bright — a side that steals the show",
+    "author": {
+      "id": "author-003",
+      "name": "Amira Hassan",
+      "bio": "Home cook and food stylist drawing on Middle Eastern and North African flavors.",
+      "avatarURL": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+      "role": "Contributing Writer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&q=80",
+    "description": "Broccolini loves high heat. When charred in a screaming-hot pan, the florets turn crispy and almost nutty, while the stems stay tender. A generous pour of lemony tahini sauce and a scattering of toasted sesame seeds turn a simple vegetable into something you will crave.",
+    "prepTime": 600,
+    "cookTime": 600,
+    "totalTime": 1200,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "id": "ing-004-01", "name": "Broccolini", "quantity": "2 bunches, trimmed", "section": null, "isOptional": false },
+      { "id": "ing-004-02", "name": "Tahini", "quantity": "3 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-004-03", "name": "Lemon juice", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-004-04", "name": "Garlic, minced", "quantity": "1 clove", "section": null, "isOptional": false },
+      { "id": "ing-004-05", "name": "Cold water", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-004-06", "name": "Olive oil", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-004-07", "name": "Toasted sesame seeds", "quantity": "1 tablespoon", "section": null, "isOptional": false },
+      { "id": "ing-004-08", "name": "Aleppo pepper flakes", "quantity": "1/2 teaspoon", "section": null, "isOptional": true }
+    ],
+    "instructions": [
+      "Whisk together the tahini, lemon juice, garlic, and cold water until smooth and pourable. Season with salt. If the sauce is too thick, add another splash of water.",
+      "Heat olive oil in a large cast-iron skillet over high heat until the oil just begins to smoke.",
+      "Add the broccolini in a single layer. Do not move it. Let it char undisturbed for 2-3 minutes until the undersides are deeply browned.",
+      "Flip and cook for another 2 minutes until tender-crisp. Season with salt.",
+      "Transfer to a serving plate. Drizzle generously with the tahini sauce. Finish with toasted sesame seeds and Aleppo pepper if using."
+    ],
+    "tags": [
+      { "id": "tag-vegan", "name": "Vegan", "slug": "vegan" },
+      { "id": "tag-quick", "name": "Quick", "slug": "quick" },
+      { "id": "tag-gluten-free", "name": "Gluten-Free", "slug": "gluten-free" }
+    ],
+    "cuisine": "Middle Eastern",
+    "course": "appetizer",
+    "season": null,
+    "nutrition": {
+      "calories": 145,
+      "protein": 5,
+      "carbohydrates": 10,
+      "fat": 11,
+      "fiber": 4,
+      "sodium": 180
+    },
+    "publishedAt": "2025-09-05T08:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-006", "recipe-008"]
+  },
+  {
+    "id": "recipe-005",
+    "title": "Cinnamon-Cardamom Dutch Baby",
+    "subtitle": "A puffy, golden pancake that bakes itself",
+    "author": {
+      "id": "author-002",
+      "name": "James Whitfield",
+      "bio": "Chef and food photographer focused on seasonal British cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "role": "Contributing Chef"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&q=80",
+    "description": "A Dutch baby is pure theatre — poured into a screaming-hot skillet, it puffs dramatically in the oven before collapsing into golden, custardy folds. This version is scented with warm cinnamon and cardamom, then finished with a squeeze of lemon and a snowfall of powdered sugar.",
+    "prepTime": 600,
+    "cookTime": 1200,
+    "totalTime": 1800,
+    "servings": 2,
+    "difficulty": "easy",
+    "ingredients": [
+      { "id": "ing-005-01", "name": "Large eggs", "quantity": "3", "section": null, "isOptional": false },
+      { "id": "ing-005-02", "name": "Whole milk", "quantity": "1/2 cup", "section": null, "isOptional": false },
+      { "id": "ing-005-03", "name": "All-purpose flour", "quantity": "1/2 cup", "section": null, "isOptional": false },
+      { "id": "ing-005-04", "name": "Granulated sugar", "quantity": "1 tablespoon", "section": null, "isOptional": false },
+      { "id": "ing-005-05", "name": "Ground cinnamon", "quantity": "1/2 teaspoon", "section": null, "isOptional": false },
+      { "id": "ing-005-06", "name": "Ground cardamom", "quantity": "1/4 teaspoon", "section": null, "isOptional": false },
+      { "id": "ing-005-07", "name": "Vanilla extract", "quantity": "1 teaspoon", "section": null, "isOptional": false },
+      { "id": "ing-005-08", "name": "Unsalted butter", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-005-09", "name": "Powdered sugar, for dusting", "quantity": "to taste", "section": null, "isOptional": false },
+      { "id": "ing-005-10", "name": "Lemon wedges, for serving", "quantity": "2", "section": null, "isOptional": false }
+    ],
+    "instructions": [
+      "Preheat the oven to 425°F (220°C) with a 10-inch cast-iron skillet inside.",
+      "In a blender, combine eggs, milk, flour, sugar, cinnamon, cardamom, and vanilla. Blend until completely smooth, about 30 seconds.",
+      "Carefully remove the hot skillet from the oven. Add the butter and swirl until melted and foaming.",
+      "Immediately pour the batter into the center of the skillet. Return to the oven.",
+      "Bake for 18-22 minutes until puffed and deeply golden. Do not open the oven door during baking.",
+      "Remove and dust generously with powdered sugar. Serve immediately with lemon wedges."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-breakfast", "name": "Breakfast", "slug": "breakfast" },
+      { "id": "tag-quick", "name": "Quick", "slug": "quick" }
+    ],
+    "cuisine": "American",
+    "course": "breakfast",
+    "season": "winter",
+    "nutrition": {
+      "calories": 340,
+      "protein": 14,
+      "carbohydrates": 35,
+      "fat": 17,
+      "fiber": 1,
+      "sodium": 190
+    },
+    "publishedAt": "2025-12-01T08:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-009", "recipe-010"]
+  },
+  {
+    "id": "recipe-006",
+    "title": "Roasted Cauliflower with Pomegranate and Herbs",
+    "subtitle": "Caramelized, jeweled, and utterly irresistible",
+    "author": {
+      "id": "author-003",
+      "name": "Amira Hassan",
+      "bio": "Home cook and food stylist drawing on Middle Eastern and North African flavors.",
+      "avatarURL": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+      "role": "Contributing Writer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&q=80",
+    "description": "A whole head of cauliflower, roasted until the edges turn mahogany and the interior becomes meltingly tender. Scattered with pomegranate seeds, fresh herbs, and a drizzle of tahini, it is the kind of centerpiece that makes you forget there is no meat on the table.",
+    "prepTime": 900,
+    "cookTime": 2400,
+    "totalTime": 3300,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "id": "ing-006-01", "name": "Large head of cauliflower", "quantity": "1 whole", "section": null, "isOptional": false },
+      { "id": "ing-006-02", "name": "Extra-virgin olive oil", "quantity": "3 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-006-03", "name": "Ground cumin", "quantity": "1 teaspoon", "section": null, "isOptional": false },
+      { "id": "ing-006-04", "name": "Smoked paprika", "quantity": "1/2 teaspoon", "section": null, "isOptional": false },
+      { "id": "ing-006-05", "name": "Pomegranate seeds", "quantity": "1/3 cup", "section": null, "isOptional": false },
+      { "id": "ing-006-06", "name": "Fresh flat-leaf parsley, chopped", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-006-07", "name": "Fresh mint leaves", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-006-08", "name": "Tahini", "quantity": "2 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-006-09", "name": "Lemon juice", "quantity": "1 tablespoon", "section": null, "isOptional": false },
+      { "id": "ing-006-10", "name": "Pine nuts, toasted", "quantity": "2 tablespoons", "section": null, "isOptional": true }
+    ],
+    "instructions": [
+      "Preheat the oven to 425°F (220°C). Trim the base of the cauliflower so it sits flat and remove any outer leaves.",
+      "Place the cauliflower on a parchment-lined baking sheet. Drizzle all over with olive oil, then season with cumin, smoked paprika, salt, and pepper, using your hands to rub the spices into every crevice.",
+      "Roast for 40-50 minutes, until deeply caramelized on the outside and a knife slides easily into the center.",
+      "While the cauliflower roasts, whisk together tahini, lemon juice, and enough water to make a drizzle-able sauce.",
+      "Transfer the roasted cauliflower to a serving platter. Drizzle with tahini sauce, then scatter pomegranate seeds, fresh herbs, and pine nuts over the top. Serve immediately."
+    ],
+    "tags": [
+      { "id": "tag-vegan", "name": "Vegan", "slug": "vegan" },
+      { "id": "tag-gluten-free", "name": "Gluten-Free", "slug": "gluten-free" },
+      { "id": "tag-entertaining", "name": "Entertaining", "slug": "entertaining" }
+    ],
+    "cuisine": "Middle Eastern",
+    "course": "dinner",
+    "season": "autumn",
+    "nutrition": {
+      "calories": 210,
+      "protein": 7,
+      "carbohydrates": 18,
+      "fat": 14,
+      "fiber": 6,
+      "sodium": 290
+    },
+    "publishedAt": "2025-11-10T10:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-004", "recipe-008", "recipe-001"]
+  },
+  {
+    "id": "recipe-007",
+    "title": "Wild Mushroom Ragu over Polenta",
+    "subtitle": "Deep, earthy, and impossibly rich without a drop of cream",
+    "author": {
+      "id": "author-001",
+      "name": "Elena Marchetti",
+      "bio": "Food writer and recipe developer with a love for rustic Italian cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      "role": "Senior Recipe Developer"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80",
+    "description": "A slow-simmered ragu of wild mushrooms — porcini, chanterelle, and cremini — spooned over creamy soft polenta. The mushrooms cook down into something almost meaty, enriched with red wine, tomato paste, and a whisper of rosemary. This is what you want on the table when the first cold evening arrives.",
+    "prepTime": 1200,
+    "cookTime": 2700,
+    "totalTime": 3900,
+    "servings": 4,
+    "difficulty": "medium",
+    "ingredients": [
+      { "id": "ing-007-01", "name": "Mixed wild mushrooms, torn", "quantity": "1 1/2 pounds", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-02", "name": "Dried porcini mushrooms", "quantity": "1/2 ounce", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-03", "name": "Yellow onion, finely diced", "quantity": "1 medium", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-04", "name": "Garlic, minced", "quantity": "3 cloves", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-05", "name": "Tomato paste", "quantity": "2 tablespoons", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-06", "name": "Red wine", "quantity": "1/2 cup", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-07", "name": "Fresh rosemary", "quantity": "2 sprigs", "section": "Ragu", "isOptional": false },
+      { "id": "ing-007-08", "name": "Polenta (coarse cornmeal)", "quantity": "1 cup", "section": "Polenta", "isOptional": false },
+      { "id": "ing-007-09", "name": "Water or stock", "quantity": "4 cups", "section": "Polenta", "isOptional": false },
+      { "id": "ing-007-10", "name": "Butter", "quantity": "2 tablespoons", "section": "Polenta", "isOptional": false },
+      { "id": "ing-007-11", "name": "Parmesan, grated", "quantity": "1/2 cup", "section": "Polenta", "isOptional": false },
+      { "id": "ing-007-12", "name": "Extra-virgin olive oil", "quantity": "3 tablespoons", "section": "Ragu", "isOptional": false }
+    ],
+    "instructions": [
+      "Soak the dried porcini in 1 cup of boiling water for 15 minutes. Drain, reserving the soaking liquid, and roughly chop the porcini.",
+      "Heat olive oil in a large Dutch oven over medium-high heat. Add the fresh mushrooms in batches, cooking without stirring until golden on the underside, about 4 minutes per batch. Remove and set aside.",
+      "In the same pot, add the onion and cook until softened, about 5 minutes. Add garlic and tomato paste, stirring until fragrant and the paste darkens, about 1 minute.",
+      "Pour in the red wine and stir to deglaze. Add the chopped porcini, reserved soaking liquid (leaving any grit behind), and rosemary sprigs. Return the seared mushrooms to the pot.",
+      "Reduce heat to low and simmer gently for 25-30 minutes, until the ragu is thick and deeply flavored. Season with salt and pepper.",
+      "Meanwhile, bring 4 cups of salted water to a boil. Slowly whisk in the polenta. Reduce heat to low and cook, stirring frequently, for 25-30 minutes until thick and creamy.",
+      "Stir butter and Parmesan into the polenta. Spoon into warm bowls, ladle the mushroom ragu on top, and finish with a drizzle of good olive oil."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-comfort", "name": "Comfort Food", "slug": "comfort-food" },
+      { "id": "tag-autumn", "name": "Autumn", "slug": "autumn" }
+    ],
+    "cuisine": "Italian",
+    "course": "dinner",
+    "season": "autumn",
+    "nutrition": {
+      "calories": 480,
+      "protein": 15,
+      "carbohydrates": 50,
+      "fat": 22,
+      "fiber": 6,
+      "sodium": 540
+    },
+    "publishedAt": "2025-10-28T10:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-002", "recipe-003"]
+  },
+  {
+    "id": "recipe-008",
+    "title": "Citrus-Marinated Beet Salad",
+    "subtitle": "Earthy meets bright in a salad that glows on the plate",
+    "author": {
+      "id": "author-004",
+      "name": "Sofia Chen",
+      "bio": "Nutritionist and recipe writer specializing in vibrant, plant-forward food.",
+      "avatarURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+      "role": "Nutrition Editor"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&q=80",
+    "description": "Roasted beets, still warm, are sliced and bathed in a bright citrus vinaigrette that seeps into every crevice. Topped with crumbled goat cheese, toasted pistachios, and tender arugula, this salad is as beautiful as it is delicious — a study in contrasts that works in every season.",
+    "prepTime": 900,
+    "cookTime": 3600,
+    "totalTime": 4500,
+    "servings": 4,
+    "difficulty": "easy",
+    "ingredients": [
+      { "id": "ing-008-01", "name": "Medium beets, mixed colors", "quantity": "4-5", "section": null, "isOptional": false },
+      { "id": "ing-008-02", "name": "Blood orange juice", "quantity": "3 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-008-03", "name": "Lemon juice", "quantity": "1 tablespoon", "section": null, "isOptional": false },
+      { "id": "ing-008-04", "name": "Extra-virgin olive oil", "quantity": "3 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-008-05", "name": "Honey", "quantity": "1 teaspoon", "section": null, "isOptional": false },
+      { "id": "ing-008-06", "name": "Baby arugula", "quantity": "2 cups", "section": null, "isOptional": false },
+      { "id": "ing-008-07", "name": "Goat cheese, crumbled", "quantity": "3 ounces", "section": null, "isOptional": false },
+      { "id": "ing-008-08", "name": "Pistachios, toasted and chopped", "quantity": "3 tablespoons", "section": null, "isOptional": false },
+      { "id": "ing-008-09", "name": "Flaky sea salt", "quantity": "to taste", "section": null, "isOptional": false }
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F (200°C). Wrap each beet individually in aluminum foil. Roast until tender when pierced with a knife, about 50-60 minutes depending on size.",
+      "While the beets roast, whisk together orange juice, lemon juice, olive oil, and honey. Season with salt and pepper.",
+      "When cool enough to handle, peel the beets — the skins should slip right off. Slice into 1/4-inch rounds or wedges.",
+      "Arrange the warm beets on a platter. Spoon the citrus vinaigrette over them and let marinate for at least 10 minutes.",
+      "Scatter arugula, crumbled goat cheese, and pistachios over the beets. Finish with flaky salt and a final drizzle of olive oil."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-gluten-free", "name": "Gluten-Free", "slug": "gluten-free" },
+      { "id": "tag-salad", "name": "Salad", "slug": "salad" }
+    ],
+    "cuisine": "Mediterranean",
+    "course": "lunch",
+    "season": "winter",
+    "nutrition": {
+      "calories": 265,
+      "protein": 8,
+      "carbohydrates": 22,
+      "fat": 17,
+      "fiber": 5,
+      "sodium": 310
+    },
+    "publishedAt": "2025-01-15T09:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-004", "recipe-006"]
+  },
+  {
+    "id": "recipe-009",
+    "title": "Honey Walnut Sourdough Boule",
+    "subtitle": "A crusty, golden loaf with pockets of toasted walnut and wild honey",
+    "author": {
+      "id": "author-002",
+      "name": "James Whitfield",
+      "bio": "Chef and food photographer focused on seasonal British cooking.",
+      "avatarURL": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "role": "Contributing Chef"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+    "description": "There is nothing quite like pulling a homemade sourdough boule from the oven — the crackle of the crust, the heady aroma of toasted wheat. This version folds in walnuts and a generous swirl of honey, giving the bread a subtle sweetness that makes it extraordinary with butter, cheese, or simply on its own.",
+    "prepTime": 1800,
+    "cookTime": 2700,
+    "totalTime": 72000,
+    "servings": 8,
+    "difficulty": "advanced",
+    "ingredients": [
+      { "id": "ing-009-01", "name": "Bread flour", "quantity": "500 grams", "section": "Dough", "isOptional": false },
+      { "id": "ing-009-02", "name": "Active sourdough starter", "quantity": "100 grams", "section": "Dough", "isOptional": false },
+      { "id": "ing-009-03", "name": "Water, lukewarm", "quantity": "350 grams", "section": "Dough", "isOptional": false },
+      { "id": "ing-009-04", "name": "Fine sea salt", "quantity": "10 grams", "section": "Dough", "isOptional": false },
+      { "id": "ing-009-05", "name": "Honey", "quantity": "3 tablespoons", "section": "Add-ins", "isOptional": false },
+      { "id": "ing-009-06", "name": "Walnuts, toasted and roughly chopped", "quantity": "3/4 cup", "section": "Add-ins", "isOptional": false },
+      { "id": "ing-009-07", "name": "Rice flour, for dusting", "quantity": "as needed", "section": null, "isOptional": false }
+    ],
+    "instructions": [
+      "In a large bowl, combine bread flour, water, and sourdough starter. Mix until a shaggy dough forms. Cover and let rest (autolyse) for 45 minutes.",
+      "Add salt and honey. Work them into the dough using the Rubaud method — stretching and slapping the dough — for about 5 minutes until incorporated.",
+      "Perform a series of four stretch-and-folds over the next 2 hours, one every 30 minutes. After the third fold, gently incorporate the toasted walnuts.",
+      "Cover and let the dough bulk ferment at room temperature until it has increased by about 50% in volume and looks bubbly and domed, about 4-6 hours depending on your starter and kitchen temperature.",
+      "Turn the dough onto a lightly floured surface. Pre-shape into a round and let rest for 20 minutes. Then do the final shaping into a tight boule.",
+      "Place seam-side up in a banneton dusted with rice flour. Cover and refrigerate overnight, or for at least 12 hours.",
+      "Preheat the oven to 500°F (260°C) with a Dutch oven inside for at least 45 minutes. Score the top of the loaf with a lame or sharp knife.",
+      "Carefully lower the dough into the hot Dutch oven. Cover and bake for 20 minutes. Remove the lid, reduce heat to 450°F (230°C), and bake for an additional 20-25 minutes until the crust is deep mahogany. Cool completely on a wire rack before slicing."
+    ],
+    "tags": [
+      { "id": "tag-vegan", "name": "Vegan", "slug": "vegan" },
+      { "id": "tag-baking", "name": "Baking", "slug": "baking" },
+      { "id": "tag-sourdough", "name": "Sourdough", "slug": "sourdough" }
+    ],
+    "cuisine": "French",
+    "course": "snack",
+    "season": null,
+    "nutrition": {
+      "calories": 290,
+      "protein": 9,
+      "carbohydrates": 48,
+      "fat": 8,
+      "fiber": 3,
+      "sodium": 390
+    },
+    "publishedAt": "2025-03-20T10:00:00Z",
+    "isFeatured": false,
+    "relatedRecipeIDs": ["recipe-005", "recipe-010"]
+  },
+  {
+    "id": "recipe-010",
+    "title": "Dark Chocolate Sea Salt Tart",
+    "subtitle": "Bittersweet, silky, and finished with a whisper of salt",
+    "author": {
+      "id": "author-004",
+      "name": "Sofia Chen",
+      "bio": "Nutritionist and recipe writer specializing in vibrant, plant-forward food.",
+      "avatarURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+      "role": "Nutrition Editor"
+    },
+    "heroImageURL": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80",
+    "thumbnailURL": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&q=80",
+    "description": "This is the chocolate tart you make when you want to end a meal with something elegant but unfussy. A crisp chocolate shortcrust shell holds a barely-set ganache filling that trembles when you nudge the plate. A scattering of flaky sea salt pulls everything into sharp, bittersweet focus.",
+    "prepTime": 1800,
+    "cookTime": 1500,
+    "totalTime": 10800,
+    "servings": 10,
+    "difficulty": "medium",
+    "ingredients": [
+      { "id": "ing-010-01", "name": "All-purpose flour", "quantity": "1 1/4 cups", "section": "Crust", "isOptional": false },
+      { "id": "ing-010-02", "name": "Dutch-process cocoa powder", "quantity": "1/4 cup", "section": "Crust", "isOptional": false },
+      { "id": "ing-010-03", "name": "Powdered sugar", "quantity": "1/2 cup", "section": "Crust", "isOptional": false },
+      { "id": "ing-010-04", "name": "Unsalted butter, cold and cubed", "quantity": "1/2 cup", "section": "Crust", "isOptional": false },
+      { "id": "ing-010-05", "name": "Egg yolk", "quantity": "1 large", "section": "Crust", "isOptional": false },
+      { "id": "ing-010-06", "name": "Dark chocolate (70%), finely chopped", "quantity": "8 ounces", "section": "Filling", "isOptional": false },
+      { "id": "ing-010-07", "name": "Heavy cream", "quantity": "1 cup", "section": "Filling", "isOptional": false },
+      { "id": "ing-010-08", "name": "Whole milk", "quantity": "1/4 cup", "section": "Filling", "isOptional": false },
+      { "id": "ing-010-09", "name": "Unsalted butter, softened", "quantity": "2 tablespoons", "section": "Filling", "isOptional": false },
+      { "id": "ing-010-10", "name": "Flaky sea salt (Maldon)", "quantity": "1/2 teaspoon", "section": "To Finish", "isOptional": false },
+      { "id": "ing-010-11", "name": "Cocoa powder, for dusting", "quantity": "for garnish", "section": "To Finish", "isOptional": true }
+    ],
+    "instructions": [
+      "Pulse flour, cocoa powder, powdered sugar, and a pinch of salt in a food processor. Add cold butter and pulse until the mixture looks like damp sand. Add the egg yolk and pulse until the dough just comes together.",
+      "Press the dough evenly into a 9-inch tart pan with a removable bottom. Prick the base with a fork. Freeze for 20 minutes.",
+      "Preheat the oven to 350°F (175°C). Line the frozen tart shell with parchment and fill with pie weights. Blind bake for 15 minutes. Remove the weights and parchment, and bake for another 8-10 minutes until the crust is set and dry to the touch. Let cool completely.",
+      "Place the chopped chocolate in a heatproof bowl. Heat the cream and milk in a saucepan until just simmering — small bubbles at the edges. Pour over the chocolate and let stand for 2 minutes.",
+      "Stir gently from the center outward until the ganache is perfectly smooth and glossy. Stir in the softened butter until incorporated.",
+      "Pour the ganache into the cooled tart shell. Tilt the pan gently to distribute evenly. Refrigerate until set, at least 2 hours.",
+      "Just before serving, scatter flaky sea salt over the surface and dust lightly with cocoa powder if desired. Serve at cool room temperature for the best texture."
+    ],
+    "tags": [
+      { "id": "tag-vegetarian", "name": "Vegetarian", "slug": "vegetarian" },
+      { "id": "tag-chocolate", "name": "Chocolate", "slug": "chocolate" },
+      { "id": "tag-entertaining", "name": "Entertaining", "slug": "entertaining" }
+    ],
+    "cuisine": "French",
+    "course": "dessert",
+    "season": null,
+    "nutrition": {
+      "calories": 380,
+      "protein": 5,
+      "carbohydrates": 32,
+      "fat": 27,
+      "fiber": 3,
+      "sodium": 165
+    },
+    "publishedAt": "2025-02-14T09:00:00Z",
+    "isFeatured": true,
+    "relatedRecipeIDs": ["recipe-005", "recipe-009"]
+  }
+]
