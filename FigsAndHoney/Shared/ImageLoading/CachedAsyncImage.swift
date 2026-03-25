@@ -12,6 +12,8 @@ struct CachedAsyncImage<Content: View, Placeholder: View>: View {
         Group {
             if let image {
                 content(Image(uiImage: image))
+            } else if let assetImage = assetCatalogImage {
+                content(assetImage)
             } else {
                 placeholder()
                     .task(id: url) {
@@ -21,8 +23,17 @@ struct CachedAsyncImage<Content: View, Placeholder: View>: View {
         }
     }
 
+    /// If the URL uses the `asset://` scheme, load directly from the asset catalog
+    private var assetCatalogImage: Image? {
+        guard let url, url.scheme == "asset" else { return nil }
+        let assetName = url.host() ?? url.absoluteString
+            .replacingOccurrences(of: "asset://", with: "")
+        guard UIImage(named: assetName) != nil else { return nil }
+        return Image(assetName)
+    }
+
     private func loadImage() async {
-        guard let url, !isLoading else { return }
+        guard let url, url.scheme != "asset", !isLoading else { return }
         isLoading = true
 
         do {

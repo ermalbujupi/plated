@@ -4,8 +4,12 @@
     "title": "Weeknight Comfort",
     "subtitle": "Meals that come together in under an hour",
     "description": "For the nights when you need something warm and reassuring on the table without a fuss. These recipes rely on pantry staples, simple techniques, and the kind of flavors that feel like a deep exhale after a long day.",
-    "coverImageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
-    "recipeIDs": ["recipe-003", "recipe-004", "recipe-007"],
+    "coverImageURL": "asset://margherita_pizza",
+    "recipeIDs": [
+      "recipe-003",
+      "recipe-004",
+      "recipe-007"
+    ],
     "curatedBy": {
       "id": "author-001",
       "name": "Elena Marchetti",
@@ -22,8 +26,12 @@
     "title": "Spring Lunches",
     "subtitle": "Light, bright, and full of the season's best produce",
     "description": "Spring asks for a different kind of lunch — one built around crisp greens, tender peas, citrus vinaigrettes, and the kind of salads that actually leave you satisfied. These recipes celebrate the season without weighing you down.",
-    "coverImageURL": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
-    "recipeIDs": ["recipe-002", "recipe-008", "recipe-004"],
+    "coverImageURL": "asset://spagheti_bolonese",
+    "recipeIDs": [
+      "recipe-002",
+      "recipe-008",
+      "recipe-004"
+    ],
     "curatedBy": {
       "id": "author-004",
       "name": "Sofia Chen",
@@ -40,8 +48,13 @@
     "title": "Soft Foods for Rainy Days",
     "subtitle": "Gentle, warming, made for staying in",
     "description": "When the rain is steady against the windows and leaving the house feels unreasonable, these are the recipes you reach for. Soft polenta, creamy risotto, custardy Dutch babies — food that wraps around you like a blanket.",
-    "coverImageURL": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
-    "recipeIDs": ["recipe-002", "recipe-003", "recipe-005", "recipe-007"],
+    "coverImageURL": "asset://bread_butter",
+    "recipeIDs": [
+      "recipe-002",
+      "recipe-003",
+      "recipe-005",
+      "recipe-007"
+    ],
     "curatedBy": {
       "id": "author-002",
       "name": "James Whitfield",
@@ -58,8 +71,13 @@
     "title": "Dinner Party Starters",
     "subtitle": "Impressive first courses that let you stay with your guests",
     "description": "The best dinner party appetizers are the ones you can prepare ahead, plate quickly, and serve without disappearing into the kitchen. From a jeweled roasted cauliflower to an elegant beet salad, these starters set the tone for an unforgettable evening.",
-    "coverImageURL": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
-    "recipeIDs": ["recipe-006", "recipe-008", "recipe-004", "recipe-001"],
+    "coverImageURL": "asset://fettucine",
+    "recipeIDs": [
+      "recipe-006",
+      "recipe-008",
+      "recipe-004",
+      "recipe-001"
+    ],
     "curatedBy": {
       "id": "author-003",
       "name": "Amira Hassan",

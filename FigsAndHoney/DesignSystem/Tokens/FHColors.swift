@@ -11,11 +11,15 @@ enum FHColors {
     static let deepBrownSecondary = Color(red: 0.369, green: 0.290, blue: 0.227) // #5E4A3A
     static let deepBrownTertiary = Color(red: 0.545, green: 0.451, blue: 0.333)  // #8B7355
 
-    // Accents
-    static let terracotta = Color(red: 0.776, green: 0.380, blue: 0.278)    // #C66147
-    static let terracottaLight = Color(red: 0.878, green: 0.545, blue: 0.455)
+    // Accents — olive/sage palette
+    static let olive = Color(red: 0.478, green: 0.514, blue: 0.384)         // #7A8362
+    static let oliveLight = Color(red: 0.627, green: 0.659, blue: 0.553)    // #A0A88D
     static let sage = Color(red: 0.498, green: 0.569, blue: 0.471)          // #7F9178
     static let sageLight = Color(red: 0.698, green: 0.753, blue: 0.682)
+
+    // Legacy aliases
+    static let terracotta = olive
+    static let terracottaLight = oliveLight
     static let stone = Color(red: 0.647, green: 0.608, blue: 0.561)         // #A59B8F
     static let warmGray = Color(red: 0.847, green: 0.824, blue: 0.792)      // #D8D2CA
 
