@@ -1,7 +1,10 @@
 import SwiftUI
 
 @Observable
+@MainActor
 final class DependencyContainer {
+    let authService: AuthService
+
     let recipeRepository: any RecipeRepository
     let editorialRepository: any EditorialRepository
     let suggestionRepository: any SuggestionRepository
@@ -11,6 +14,10 @@ final class DependencyContainer {
     let homeFeedRepository: any HomeFeedRepository
 
     init() {
+        self.authService = AuthService()
+
+        // Content repositories — still mocked. Stage 3 will swap these for API-backed
+        // implementations one at a time. Persistence repos stay local for now.
         let loader = MockDataLoader()
         self.recipeRepository = MockRecipeRepository(loader: loader)
         self.editorialRepository = MockEditorialRepository(loader: loader)

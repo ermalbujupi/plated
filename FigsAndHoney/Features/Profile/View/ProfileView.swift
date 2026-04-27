@@ -2,6 +2,8 @@ import SwiftUI
 
 struct ProfileView: View {
     @Bindable var viewModel: ProfileViewModel
+    @Environment(DependencyContainer.self) private var container
+    @State private var showingSignOutConfirm = false
 
     private let cuisines = ["Italian", "Japanese", "Mexican", "French", "Thai", "Indian", "Mediterranean", "Korean", "American", "Middle Eastern"]
 
@@ -76,6 +78,18 @@ struct ProfileView: View {
                 // About
                 AboutSection()
                     .screenHorizontalPadding()
+
+                // Sign out
+                Button(role: .destructive) {
+                    showingSignOutConfirm = true
+                } label: {
+                    Text("Sign out")
+                        .font(FHTypography.uiCallout.weight(.medium))
+                        .frame(maxWidth: .infinity, minHeight: 48)
+                }
+                .buttonStyle(.bordered)
+                .tint(.red)
+                .screenHorizontalPadding()
             }
             .padding(.bottom, FHSpacing.xxxxl)
         }
@@ -84,6 +98,16 @@ struct ProfileView: View {
         .navigationBarTitleDisplayMode(.large)
         .task {
             await viewModel.load()
+        }
+        .confirmationDialog(
+            "Sign out of Figs & Honey?",
+            isPresented: $showingSignOutConfirm,
+            titleVisibility: .visible
+        ) {
+            Button("Sign out", role: .destructive) {
+                Task { await container.authService.signOut() }
+            }
+            Button("Cancel", role: .cancel) {}
         }
     }
 }
