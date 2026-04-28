@@ -13,7 +13,12 @@ enum HTTPMethod: String {
 /// - Decode the `{ status, data, meta }` envelope
 /// - Map error envelopes → `APIError`
 /// - On 401, attempt one refresh + retry, then surface `.unauthorized`
-final class APIClient {
+///
+/// `@unchecked Sendable` because `refreshHandler` is a `var`, but in practice
+/// it's written exactly once on the main actor during AuthService init and
+/// read-only thereafter. URLSession, the decoder, and the actor token store
+/// are all thread-safe.
+final class APIClient: @unchecked Sendable {
     static let shared = APIClient()
 
     private let baseURL: URL
@@ -34,20 +39,7 @@ final class APIClient {
         self.session = session
         self.tokenStore = tokenStore
 
-        let decoder = JSONDecoder()
-        // Backend sends ISO8601 timestamps with fractional seconds (e.g. "2026-04-21T19:42:13.456Z").
-        // The default `.iso8601` strategy doesn't handle fractional seconds, so use a custom one.
-        decoder.dateDecodingStrategy = .custom { decoder in
-            let container = try decoder.singleValueContainer()
-            let raw = try container.decode(String.self)
-            if let date = APIClient.iso8601WithFractional.date(from: raw) { return date }
-            if let date = APIClient.iso8601Plain.date(from: raw)         { return date }
-            throw DecodingError.dataCorruptedError(
-                in: container,
-                debugDescription: "Unrecognized ISO8601 date: \(raw)"
-            )
-        }
-        self.decoder = decoder
+        self.decoder = APIClient.makeJSONDecoder()
     }
 
     // MARK: - Public API
@@ -231,6 +223,25 @@ final class APIClient {
     }
 
     // MARK: - Date formatters
+
+    /// Backend sends ISO8601 timestamps with fractional seconds
+    /// (e.g. "2026-04-21T19:42:13.456Z"). The built-in `.iso8601` strategy
+    /// doesn't handle fractional seconds, so callers that need to decode
+    /// nested DTOs (like the polymorphic feed items) should use this factory.
+    static func makeJSONDecoder() -> JSONDecoder {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .custom { decoder in
+            let container = try decoder.singleValueContainer()
+            let raw = try container.decode(String.self)
+            if let date = iso8601WithFractional.date(from: raw) { return date }
+            if let date = iso8601Plain.date(from: raw)         { return date }
+            throw DecodingError.dataCorruptedError(
+                in: container,
+                debugDescription: "Unrecognized ISO8601 date: \(raw)"
+            )
+        }
+        return decoder
+    }
 
     private static let iso8601WithFractional: ISO8601DateFormatter = {
         let f = ISO8601DateFormatter()

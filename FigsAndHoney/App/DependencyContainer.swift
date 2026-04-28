@@ -13,18 +13,42 @@ final class DependencyContainer {
     let userPreferencesRepository: any UserPreferencesRepository
     let homeFeedRepository: any HomeFeedRepository
 
-    init() {
+    /// Per-repo source toggles. Flip individual flags to swap mock data for
+    /// real API calls. Useful while we validate each endpoint end-to-end.
+    /// Once everything's stable, just delete the mocks and inline the API repos.
+    struct Sources {
+        var recipes:    Source = .api
+        var editorials: Source = .api
+        var collections: Source = .api
+        var suggestions: Source = .api
+        var homeFeed:    Source = .api
+
+        enum Source { case mock, api }
+    }
+
+    init(sources: Sources = Sources()) {
         self.authService = AuthService()
 
-        // Content repositories — still mocked. Stage 3 will swap these for API-backed
-        // implementations one at a time. Persistence repos stay local for now.
         let loader = MockDataLoader()
-        self.recipeRepository = MockRecipeRepository(loader: loader)
-        self.editorialRepository = MockEditorialRepository(loader: loader)
-        self.suggestionRepository = MockSuggestionRepository(loader: loader)
-        self.collectionRepository = MockCollectionRepository(loader: loader)
+        self.recipeRepository = sources.recipes == .api
+            ? APIRecipeRepository()
+            : MockRecipeRepository(loader: loader)
+        self.editorialRepository = sources.editorials == .api
+            ? APIEditorialRepository()
+            : MockEditorialRepository(loader: loader)
+        self.suggestionRepository = sources.suggestions == .api
+            ? APISuggestionRepository()
+            : MockSuggestionRepository(loader: loader)
+        self.collectionRepository = sources.collections == .api
+            ? APICollectionRepository()
+            : MockCollectionRepository(loader: loader)
+        self.homeFeedRepository = sources.homeFeed == .api
+            ? APIHomeFeedRepository()
+            : MockHomeFeedRepository(loader: loader)
+
+        // User-data repos stay local for now. Stage 4 will add API versions
+        // backed by /user/preferences and /user/saved.
         self.savedItemRepository = LocalSavedItemRepository()
         self.userPreferencesRepository = LocalPreferencesRepository()
-        self.homeFeedRepository = MockHomeFeedRepository(loader: loader)
     }
 }

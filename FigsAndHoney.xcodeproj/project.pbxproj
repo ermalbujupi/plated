@@ -85,6 +85,17 @@
 		98C5CB222F9FF9990040FB13 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB1F2F9FF9990040FB13 /* AuthViewModel.swift */; };
 		98C5CB232F9FF9990040FB13 /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB1C2F9FF9990040FB13 /* AuthScreen.swift */; };
 		98C5CB242F9FF9990040FB13 /* EmailAuthSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB1D2F9FF9990040FB13 /* EmailAuthSheet.swift */; };
+		98C5CB322F9FFEA20040FB13 /* EditorialDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB262F9FFEA20040FB13 /* EditorialDTO.swift */; };
+		98C5CB332F9FFEA20040FB13 /* RecipeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB282F9FFEA20040FB13 /* RecipeDTO.swift */; };
+		98C5CB342F9FFEA20040FB13 /* APICollectionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB2C2F9FFEA20040FB13 /* APICollectionRepository.swift */; };
+		98C5CB352F9FFEA20040FB13 /* APISuggestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB302F9FFEA20040FB13 /* APISuggestionRepository.swift */; };
+		98C5CB362F9FFEA20040FB13 /* SuggestionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB2A2F9FFEA20040FB13 /* SuggestionDTO.swift */; };
+		98C5CB372F9FFEA20040FB13 /* APIHomeFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB2E2F9FFEA20040FB13 /* APIHomeFeedRepository.swift */; };
+		98C5CB382F9FFEA20040FB13 /* APIEditorialRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB2D2F9FFEA20040FB13 /* APIEditorialRepository.swift */; };
+		98C5CB392F9FFEA20040FB13 /* CollectionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB252F9FFEA20040FB13 /* CollectionDTO.swift */; };
+		98C5CB3A2F9FFEA20040FB13 /* APIRecipeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB2F2F9FFEA20040FB13 /* APIRecipeRepository.swift */; };
+		98C5CB3B2F9FFEA20040FB13 /* FeedDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB272F9FFEA20040FB13 /* FeedDTO.swift */; };
+		98C5CB3C2F9FFEA20040FB13 /* SharedDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5CB292F9FFEA20040FB13 /* SharedDTOs.swift */; };
 		990511DE47A67432439E7310 /* DietarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340BF196F2A7B115755663B5 /* DietarySection.swift */; };
 		9D8805E455D4622C68F6366F /* RecipeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD49B4276033965998C4EC2 /* RecipeRepository.swift */; };
 		9DF5BA9139BEFC56F55727E0 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9026C31E9BCAAD352A7051 /* ExploreView.swift */; };
@@ -196,6 +207,17 @@
 		98C5CB1C2F9FF9990040FB13 /* AuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
 		98C5CB1D2F9FF9990040FB13 /* EmailAuthSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthSheet.swift; sourceTree = "<group>"; };
 		98C5CB1F2F9FF9990040FB13 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		98C5CB252F9FFEA20040FB13 /* CollectionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDTO.swift; sourceTree = "<group>"; };
+		98C5CB262F9FFEA20040FB13 /* EditorialDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorialDTO.swift; sourceTree = "<group>"; };
+		98C5CB272F9FFEA20040FB13 /* FeedDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDTO.swift; sourceTree = "<group>"; };
+		98C5CB282F9FFEA20040FB13 /* RecipeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDTO.swift; sourceTree = "<group>"; };
+		98C5CB292F9FFEA20040FB13 /* SharedDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDTOs.swift; sourceTree = "<group>"; };
+		98C5CB2A2F9FFEA20040FB13 /* SuggestionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionDTO.swift; sourceTree = "<group>"; };
+		98C5CB2C2F9FFEA20040FB13 /* APICollectionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICollectionRepository.swift; sourceTree = "<group>"; };
+		98C5CB2D2F9FFEA20040FB13 /* APIEditorialRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEditorialRepository.swift; sourceTree = "<group>"; };
+		98C5CB2E2F9FFEA20040FB13 /* APIHomeFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHomeFeedRepository.swift; sourceTree = "<group>"; };
+		98C5CB2F2F9FFEA20040FB13 /* APIRecipeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRecipeRepository.swift; sourceTree = "<group>"; };
+		98C5CB302F9FFEA20040FB13 /* APISuggestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISuggestionRepository.swift; sourceTree = "<group>"; };
 		9AAEA01959056C4392F50CCD /* ImagePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
 		9CCC09E29F61DDBDB9954D09 /* FHShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHShadows.swift; sourceTree = "<group>"; };
 		9D0750F261C1459509B8854D /* FHSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHSpacing.swift; sourceTree = "<group>"; };
@@ -625,6 +647,8 @@
 		98C5CB132F9FED5B0040FB13 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				98C5CB2B2F9FFEA20040FB13 /* DTOs */,
+				98C5CB312F9FFEA20040FB13 /* Repositories */,
 				98C5CB0B2F9FED5B0040FB13 /* APIClient.swift */,
 				98C5CB0C2F9FED5B0040FB13 /* APIConfig.swift */,
 				98C5CB0D2F9FED5B0040FB13 /* APIEnvelope.swift */,
@@ -661,6 +685,31 @@
 				98C5CB202F9FF9990040FB13 /* ViewModel */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		98C5CB2B2F9FFEA20040FB13 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				98C5CB252F9FFEA20040FB13 /* CollectionDTO.swift */,
+				98C5CB262F9FFEA20040FB13 /* EditorialDTO.swift */,
+				98C5CB272F9FFEA20040FB13 /* FeedDTO.swift */,
+				98C5CB282F9FFEA20040FB13 /* RecipeDTO.swift */,
+				98C5CB292F9FFEA20040FB13 /* SharedDTOs.swift */,
+				98C5CB2A2F9FFEA20040FB13 /* SuggestionDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		98C5CB312F9FFEA20040FB13 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				98C5CB2C2F9FFEA20040FB13 /* APICollectionRepository.swift */,
+				98C5CB2D2F9FFEA20040FB13 /* APIEditorialRepository.swift */,
+				98C5CB2E2F9FFEA20040FB13 /* APIHomeFeedRepository.swift */,
+				98C5CB2F2F9FFEA20040FB13 /* APIRecipeRepository.swift */,
+				98C5CB302F9FFEA20040FB13 /* APISuggestionRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		9A9763D415ED5F36BF4856E2 /* View */ = {
@@ -968,6 +1017,17 @@
 				98C5CB1B2F9FED5B0040FB13 /* APIError.swift in Sources */,
 				DF89D851BC45A4F532E2B909 /* FHShadows.swift in Sources */,
 				7816A95B2C4444B65D83799F /* FHSpacing.swift in Sources */,
+				98C5CB322F9FFEA20040FB13 /* EditorialDTO.swift in Sources */,
+				98C5CB332F9FFEA20040FB13 /* RecipeDTO.swift in Sources */,
+				98C5CB342F9FFEA20040FB13 /* APICollectionRepository.swift in Sources */,
+				98C5CB352F9FFEA20040FB13 /* APISuggestionRepository.swift in Sources */,
+				98C5CB362F9FFEA20040FB13 /* SuggestionDTO.swift in Sources */,
+				98C5CB372F9FFEA20040FB13 /* APIHomeFeedRepository.swift in Sources */,
+				98C5CB382F9FFEA20040FB13 /* APIEditorialRepository.swift in Sources */,
+				98C5CB392F9FFEA20040FB13 /* CollectionDTO.swift in Sources */,
+				98C5CB3A2F9FFEA20040FB13 /* APIRecipeRepository.swift in Sources */,
+				98C5CB3B2F9FFEA20040FB13 /* FeedDTO.swift in Sources */,
+				98C5CB3C2F9FFEA20040FB13 /* SharedDTOs.swift in Sources */,
 				E6FE9B332D36B5F62085F969 /* FHTypography.swift in Sources */,
 				826FD18E64556883E0E1F594 /* IngredientListView.swift in Sources */,
 				2474E376EC5025DD8D4A5B37 /* InstructionStepView.swift in Sources */,
