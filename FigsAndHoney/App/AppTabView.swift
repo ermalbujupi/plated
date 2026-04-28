@@ -8,13 +8,8 @@ struct AppTabView: View {
     var body: some View {
         TabView(selection: $appState.selectedTab) {
             NavigationStack(path: $router.homePath) {
-                HomeFeedView(
-                    viewModel: HomeFeedViewModel(
-                        homeFeedRepository: container.homeFeedRepository,
-                        savedItemRepository: container.savedItemRepository
-                    )
-                )
-                .navigationDestinations(container: container)
+                HomeTabRoot(container: container)
+                    .navigationDestinations(container: container)
             }
             .tabItem {
                 Label("Home", systemImage: AppTab.home.systemImage)
@@ -22,14 +17,8 @@ struct AppTabView: View {
             .tag(AppTab.home)
 
             NavigationStack(path: $router.explorePath) {
-                ExploreView(
-                    viewModel: ExploreViewModel(
-                        recipeRepository: container.recipeRepository,
-                        editorialRepository: container.editorialRepository,
-                        collectionRepository: container.collectionRepository
-                    )
-                )
-                .navigationDestinations(container: container)
+                ExploreTabRoot(container: container)
+                    .navigationDestinations(container: container)
             }
             .tabItem {
                 Label("Explore", systemImage: AppTab.explore.systemImage)
@@ -37,15 +26,8 @@ struct AppTabView: View {
             .tag(AppTab.explore)
 
             NavigationStack(path: $router.savedPath) {
-                SavedView(
-                    viewModel: SavedViewModel(
-                        savedItemRepository: container.savedItemRepository,
-                        recipeRepository: container.recipeRepository,
-                        editorialRepository: container.editorialRepository,
-                        collectionRepository: container.collectionRepository
-                    )
-                )
-                .navigationDestinations(container: container)
+                SavedTabRoot(container: container)
+                    .navigationDestinations(container: container)
             }
             .tabItem {
                 Label("Saved", systemImage: AppTab.saved.systemImage)
@@ -53,12 +35,8 @@ struct AppTabView: View {
             .tag(AppTab.saved)
 
             NavigationStack(path: $router.profilePath) {
-                ProfileView(
-                    viewModel: ProfileViewModel(
-                        preferencesRepository: container.userPreferencesRepository
-                    )
-                )
-                .navigationDestinations(container: container)
+                ProfileTabRoot(container: container)
+                    .navigationDestinations(container: container)
             }
             .tabItem {
                 Label("Profile", systemImage: AppTab.profile.systemImage)
@@ -66,6 +44,83 @@ struct AppTabView: View {
             .tag(AppTab.profile)
         }
         .tint(FHColors.terracotta)
+    }
+}
+
+// MARK: - Tab roots
+//
+// Each tab gets its own root view that owns its ViewModel via `@State`. Without
+// this layer, the ViewModels were being constructed inline in `AppTabView.body`,
+// so any re-render (e.g. after a navigation push/pop) created a fresh empty VM
+// — wiping loaded state and cancelling in-flight requests.
+
+private struct HomeTabRoot: View {
+    let container: DependencyContainer
+    @State private var viewModel: HomeFeedViewModel
+
+    init(container: DependencyContainer) {
+        self.container = container
+        _viewModel = State(initialValue: HomeFeedViewModel(
+            homeFeedRepository: container.homeFeedRepository,
+            savedItemRepository: container.savedItemRepository
+        ))
+    }
+
+    var body: some View {
+        HomeFeedView(viewModel: viewModel)
+    }
+}
+
+private struct ExploreTabRoot: View {
+    let container: DependencyContainer
+    @State private var viewModel: ExploreViewModel
+
+    init(container: DependencyContainer) {
+        self.container = container
+        _viewModel = State(initialValue: ExploreViewModel(
+            recipeRepository: container.recipeRepository,
+            editorialRepository: container.editorialRepository,
+            collectionRepository: container.collectionRepository
+        ))
+    }
+
+    var body: some View {
+        ExploreView(viewModel: viewModel)
+    }
+}
+
+private struct SavedTabRoot: View {
+    let container: DependencyContainer
+    @State private var viewModel: SavedViewModel
+
+    init(container: DependencyContainer) {
+        self.container = container
+        _viewModel = State(initialValue: SavedViewModel(
+            savedItemRepository: container.savedItemRepository,
+            recipeRepository: container.recipeRepository,
+            editorialRepository: container.editorialRepository,
+            collectionRepository: container.collectionRepository
+        ))
+    }
+
+    var body: some View {
+        SavedView(viewModel: viewModel)
+    }
+}
+
+private struct ProfileTabRoot: View {
+    let container: DependencyContainer
+    @State private var viewModel: ProfileViewModel
+
+    init(container: DependencyContainer) {
+        self.container = container
+        _viewModel = State(initialValue: ProfileViewModel(
+            preferencesRepository: container.userPreferencesRepository
+        ))
+    }
+
+    var body: some View {
+        ProfileView(viewModel: viewModel)
     }
 }
 
